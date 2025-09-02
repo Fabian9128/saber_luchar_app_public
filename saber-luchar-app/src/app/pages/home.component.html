@@ -1,0 +1,11 @@
+<mat-drawer-container class="home-container" [hasBackdrop]="true" autosize mode="side">
+  <app-header [drawer]="drawer"></app-header>
+
+  <mat-drawer #drawer class="home-sidenav">
+    <app-menu [drawer]="drawer"></app-menu>
+  </mat-drawer>
+
+  <div class="main-container">
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>

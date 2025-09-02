@@ -1,0 +1,42 @@
+.maq-app-title {
+  flex: 1;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.title-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+#header {
+  border-bottom: 8px solid;
+  border-image: linear-gradient(to right, #ffffff, #2997df, #ffd21f) 1;
+}
+
+@media (max-width: 768px) {
+  .maq-app-title {
+    font-size: 1.1rem;
+  }
+  .title-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .maq-app-title {
+    font-size: 0.95rem;
+  }
+  .title-icon {
+    width: 35px;
+    height: 35px;
+  }
+}

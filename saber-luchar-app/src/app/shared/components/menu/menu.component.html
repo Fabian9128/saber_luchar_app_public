@@ -1,0 +1,33 @@
+<section id="Menu">
+  <div>
+    <span id="logoCard">
+      <img src="assets/images/luchaIcon.png" class="card-logo">
+    </span>
+  </div>
+
+  <button mat-menu-item (click)="navigateToInicio()">
+    INICIO
+  </button>
+
+  <button mat-menu-item (click)="navigateToNormativa()">
+    NORMATIVA
+  </button>
+
+  <button mat-menu-item (click)="navigateToPlantillas()">
+    PLANTILLAS
+  </button>
+
+  <button mat-menu-item (click)="navigateToClasificaciones()">
+    CLASIFICACIONES
+  </button>
+
+  <button mat-menu-item (click)="navigateToLigaInsular()">
+    LIGA INSULAR
+  </button>
+
+  <button mat-menu-item disabled>
+    <mat-icon>lock</mat-icon>
+    LIGA REGIONAL
+  </button>
+
+</section>

@@ -1,0 +1,19 @@
+.home-container {
+  width: 100%;
+  height: 100%;
+}
+
+.home-sidenav {
+  padding: 30px 40px 30px 20px;
+}
+
+.main-container {
+  padding: 20px 30px;
+  background-image: url("/assets/images/arena.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 92.3vh;
+  height: auto;
+  box-sizing: border-box;
+}

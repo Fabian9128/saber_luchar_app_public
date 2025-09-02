@@ -1,0 +1,43 @@
+<div *ngIf="loading" class="loading">
+  <mat-spinner></mat-spinner>
+</div>
+
+<div *ngIf="!loading">
+  <div class="container" *ngFor="let jornada of jornadas">
+    <div class="header">
+      <h1>LIGA REGIONAL - JORNADA {{ jornada.numero }}</h1>
+    </div>
+
+    <div class="content">
+      <table *ngIf="jornada.luchas.length > 0">
+        <thead>
+          <tr>
+            <th>FECHA</th>
+            <th>LUCHADA</th>
+            <th>RESULTADO</th>
+            <th *ngFor="let jugador of jugadores">{{ jugador }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let lucha of jornada.luchas">
+            <td [ngClass]="getClassLucha(lucha, 'fecha')">{{ lucha.fecha }}</td>
+            <td [ngClass]="getClassLucha(lucha, 'luchada')">
+              <img *ngFor="let equipo of lucha.luchada.split(' - ')"
+                  [src]="equiposIconos[equipo.trim()]"
+                  [alt]="equipo.trim()"
+                  class="icono-equipo">
+            </td>
+            <td [ngClass]="getClassLucha(lucha, 'resultado')">{{ lucha.resultado }}</td>
+            <td *ngFor="let jugador of jugadores" [ngClass]="getCellPronostico(lucha, jugador)">
+              {{ lucha[jugador] ?? '-' }}
+            </td>
+          </tr>
+          <tr class="totales">
+            <td colspan="3"><b>PUNTOS</b></td>
+            <td *ngFor="let jugador of jugadores"><b>{{ calcularPuntos(jornada.luchas, jugador) }}</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

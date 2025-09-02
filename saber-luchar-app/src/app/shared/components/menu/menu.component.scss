@@ -1,0 +1,65 @@
+.mat-mdc-menu-item {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-align: left;
+  box-sizing: border-box;
+  color: #ffd21f;
+  font-size: inherit;
+  background-color: #2997df;
+  text-decoration: none;
+  margin-bottom: 10px;
+  min-height: 48px;
+  width: 100%;
+  min-width: unset;
+  border-radius: 12px;
+  transition: none;
+}
+
+.mat-mdc-menu-item .mat-icon {
+  margin-right: 16px;
+  color: #ffd21f;
+}
+
+#Menu {
+  color-scheme: light dark;
+  background-color: #ffffff;
+  color: #2997df;
+  font-size: 20px;
+  line-height: 6rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+#logoCard, .card-logo {
+  max-width: 210px;
+}
+
+.icon-menu {
+  color: #2997df !important;
+}
+
+.menu-item-active, .icon-menu-active {
+  color: #2997df !important;
+  font-weight: bold !important;
+}
+
+/* Eliminamos hover */
+.mat-mdc-menu-item:not([disabled]):hover {
+  background-color: #2997df;
+  color: #ffd21f;
+}
+
+.mat-mdc-menu-item:not([disabled]):hover .mat-icon {
+  color: #ffd21f;
+}

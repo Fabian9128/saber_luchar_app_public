@@ -1,0 +1,362 @@
+{
+  "equipos": [
+    {
+      "nombre": "TEDOTE",
+      "isla": "LA PALMA",
+      "logo": "assets/images/tedote.png",
+      "luchadores": [
+        {"nombre": "ELIÉSER GUTIÉRREZ", "categoria": "PA"},
+        {"nombre": "ALEXANDER MORENO", "categoria": "PC"},
+        {"nombre": "ALBERTO CASTRO", "categoria": "DA"},
+        {"nombre": "CRISTIAN GONZÁLEZ", "categoria": "DB"},
+        {"nombre": "SAMUEL CASTRO", "categoria": "DC"},
+        {"nombre": "GUILLERMO PÉREZ", "categoria": "DC"},
+        {"nombre": "ALBANO CASTRO", "categoria": "DC"},
+        {"nombre": "MAIQUEL GONZÁLEZ", "categoria": "LIBRE"},
+        {"nombre": "ACORÁN MONTESINOS", "categoria": "LIBRE"},
+        {"nombre": "YERAI RUSO", "categoria": "LIBRE"},
+        {"nombre": "ABRAHAM PÉREZ", "categoria": "LIBRE"},
+        {"nombre": "ALEJANDRO MARTÍN", "categoria": "LIBRE"},
+        {"nombre": "JEROME SUÁREZ", "categoria": "LIBRE"}
+      ]
+    },
+    {
+      "nombre": "CANDELARIA",
+      "isla": "LA PALMA",
+      "logo": "assets/images/candelaria.png",
+      "luchadores": [
+        {"nombre": "DIEGO PÉREZ", "categoria": "PB"},
+        {"nombre": "MARIO RODRÍGUEZ", "categoria": "DA"},
+        {"nombre": "CRISTIAN MORALES", "categoria": "DA"},
+        {"nombre": "ÁLVARO COBOS", "categoria": "DB"},
+        {"nombre": "EFRAÍN GUEDES", "categoria": "DB"},
+        {"nombre": "MIGUEL RODRÍGUEZ", "categoria": "DC"},
+        {"nombre": "JOAQUÍN BARROSO", "categoria": "LIBRE"},
+        {"nombre": "NAUZET ARROCHA", "categoria": "LIBRE"},
+        {"nombre": "NICOLÁS", "categoria": "JUVENIL"},
+        {"nombre": "OMAR DE CONCEPCIÓN", "categoria": "JUVENIL"},
+        {"nombre": "IKER PIÑERO", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "TAZACORTE",
+      "isla": "LA PALMA",
+      "logo": "assets/images/tazacorte.png",
+      "luchadores": [
+        {"nombre": "IVÁN TURBO", "categoria": "PB"},
+        {"nombre": "AITOR MOLINA", "categoria": "PC"},
+        {"nombre": "ÁNGEL SUÁREZ", "categoria": "PC"},
+        {"nombre": "JAVIER HERNÁNDEZ", "categoria": "DA"},
+        {"nombre": "DERECK ACOSTA", "categoria": "DC"}
+      ]
+    },
+    {
+      "nombre": "ARIDANE",
+      "isla": "LA PALMA",
+      "logo": "assets/images/aridane.png",
+      "luchadores": [
+        {"nombre": "RAÚL PEÑATE", "categoria": "PB"},
+        {"nombre": "CARLOS JIMÉNEZ", "categoria": "PC"},
+        {"nombre": "CARLOS MATOSO", "categoria": "DA"},
+        {"nombre": "YERAY HERNÁNDEZ", "categoria": "DA"},
+        {"nombre": "TANAUSÚ BARRETO", "categoria": "DC"},
+        {"nombre": "ALEXANDER GONZÁLEZ", "categoria": "DC"},
+        {"nombre": "NACOR", "categoria": "JUVENIL"},
+        {"nombre": "ALEXIS", "categoria": "JUVENIL"},
+        {"nombre": "ÁLVARO", "categoria": "JUVENIL"},
+        {"nombre": "HÉCTOR", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "BEDIESTA",
+      "isla": "LA PALMA",
+      "logo": "assets/images/bediesta.png",
+      "luchadores": [
+        {"nombre": "ALEJANDRO AFONSO", "categoria": "PA"},
+        {"nombre": "KIRIAN PÉREZ", "categoria": "PC"},
+        {"nombre": "KEVIN CASTELLANO", "categoria": "DA"},
+        {"nombre": "EDWIN GÓMEZ", "categoria": "DB"},
+        {"nombre": "PAOLO PÉREZ", "categoria": "DC"},
+        {"nombre": "ROMEO LEANDER", "categoria": "DC"},
+        {"nombre": "ARQUÍMEDES PALMA", "categoria": "DC"},
+        {"nombre": "CHRISTIAN PLATA", "categoria": "LIBRE"},
+        {"nombre": "SAMUEL BRITO", "categoria": "LIBRE"},
+        {"nombre": "MANUEL SÁNCHEZ", "categoria": "LIBRE"},
+        {"nombre": "KEVIN PÉREZ", "categoria": "LIBRE"},
+        {"nombre": "MALICK NDIAYE", "categoria": "JUVENIL"},
+        {"nombre": "HÉCTOR ZERPA", "categoria": "JUVENIL"},
+        {"nombre": "DAYRON MARTÍN", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "TAMANCA",
+      "isla": "LA PALMA",
+      "logo": "assets/images/tamanca.png",
+      "luchadores": [
+        {"nombre": "FERNANDO MONTAÑA", "categoria": "PB"},
+        {"nombre": "HUMBERTO VERA", "categoria": "DA"},
+        {"nombre": "RAFAEL FERNÁNDEZ", "categoria": "DA"},
+        {"nombre": "CARLOS ALONSO", "categoria": "DB"},
+        {"nombre": "RUIMAN PEÑATE", "categoria": "DB"},
+        {"nombre": "FABIÁN CANO", "categoria": "DC"},
+        {"nombre": "AYTHAMI XERACH", "categoria": "DC"},
+        {"nombre": "TOMÁS PÉREZ", "categoria": "LIBRE"},
+        {"nombre": "CÉSAR HERNÁNDEZ", "categoria": "LIBRE"},
+        {"nombre": "NICOLÁS", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "ROSARIO V.G.",
+      "isla": "TENERIFE",
+      "logo": "assets/images/rosariovg.png",
+      "luchadores": [
+        {"nombre": "FABIÁN ROCHA", "categoria": "PA"},
+        {"nombre": "MARCIAL VIÑOLY", "categoria": "PC"},
+        {"nombre": "CRISTIAN ARBELO", "categoria": "DA"},
+        {"nombre": "TAYLOR HERNÁNDEZ", "categoria": "DB"},
+        {"nombre": "JAIRO DE LA PAZ", "categoria": "DC"},
+        {"nombre": "PONCIANO GONZÁLEZ", "categoria": "DC"},
+        {"nombre": "FRANCISCO GONZÁLEZ", "categoria": "DC"},
+        {"nombre": "ISMAEL DE ARMAS", "categoria": "DC"},
+        {"nombre": "MARIO TRUJILLO", "categoria": "DC"},
+        {"nombre": "DANIEL MENDOZA", "categoria": "LIBRE"},
+        {"nombre": "ABIÁN DORTA", "categoria": "LIBRE"},
+        {"nombre": "RUYMÁN HERNÁNDEZ", "categoria": "LIBRE"},
+        {"nombre": "DANIEL ROBAINA", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "GUAMASA",
+      "isla": "TENERIFE",
+      "logo": "assets/images/guamasa.png",
+      "luchadores": [
+        {"nombre": "AYOZE REYES", "categoria": "PA"},
+        {"nombre": "FRANCISCO PÉREZ", "categoria": "PC"},
+        {"nombre": "FRANCISCO VEGA", "categoria": "DB"},
+        {"nombre": "JOSUA EL PETO", "categoria": "DB"},
+        {"nombre": "SAMBA DIOME", "categoria": "DC"},
+        {"nombre": "NAUZET MARTÍN", "categoria": "DC"},
+        {"nombre": "ALEJANDRO LEÓN", "categoria": "DC"},
+        {"nombre": "JONATHAN HERNÁNDEZ", "categoria": "DC"},
+        {"nombre": "DAVID DÍAZ", "categoria": "LIBRE"}
+      ]
+    },
+    {
+      "nombre": "TEGUESTE",
+      "isla": "TENERIFE",
+      "logo": "assets/images/tegueste.png",
+      "luchadores": [
+        {"nombre": "MAMADOU CAMARA", "categoria": "PA"},
+        {"nombre": "RUBÉN GALVÁN", "categoria": "PC"},
+        {"nombre": "ANCOR SUÁREZ", "categoria": "DB"},
+        {"nombre": "SANDRO RAMOS", "categoria": "DB"},
+        {"nombre": "LUIS GUTIÉRREZ", "categoria": "DC"},
+        {"nombre": "JOAQUÍN PÉREZ", "categoria": "DC"},
+        {"nombre": "ANATHAEL ACOSTA", "categoria": "DC"},
+        {"nombre": "ERIK MORÍN", "categoria": "DC"},
+        {"nombre": "DEREK ALONSO", "categoria": "LIBRE"},
+        {"nombre": "IRIOME LÓPEZ", "categoria": "JUVENIL"},
+        {"nombre": "HÉCTOR PÉREZ", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "VICTORIA",
+      "isla": "TENERIFE",
+      "logo": "assets/images/victoria.png",
+      "luchadores": [
+        {"nombre": "JAVI GARCÍA", "categoria": "PA"},
+        {"nombre": "ARGEO GARCÍA", "categoria": "PC"},
+        {"nombre": "DORAMAS INFANTE", "categoria": "DB"},
+        {"nombre": "EUSEBIO DÍAZ", "categoria": "DB"},
+        {"nombre": "ABIÁN GONZÁLEZ", "categoria": "DC"},
+        {"nombre": "SHANE HERNÁNDEZ", "categoria": "DC"},
+        {"nombre": "BERLAMINO GOYA", "categoria": "DC"},
+        {"nombre": "CARLOS PERAZA", "categoria": "DC"},
+        {"nombre": "BRIAN BARROSO", "categoria": "LIBRE"},
+        {"nombre": "JEAN PIERRE", "categoria": "LIBRE"},
+        {"nombre": "ISMAELLA SEYE", "categoria": "LIBRE"},
+        {"nombre": "YERAY DÍAZ", "categoria": "LIBRE"},
+        {"nombre": "AARON GONZÁLEZ", "categoria": "JUVENIL"},
+        {"nombre": "ÁNGEL SOSA", "categoria": "JUVENIL"},
+        {"nombre": "DIEGO FUENTES", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "CHIMBESQUE",
+      "isla": "TENERIFE",
+      "logo": "assets/images/chimbesque.png",
+      "luchadores": [
+        {"nombre": "EUSEBIO LEDESMA", "categoria": "PA"},
+        {"nombre": "VÍCTOR PIMIENTA", "categoria": "PC"},
+        {"nombre": "CRISTIAN GARCÍA", "categoria": "DA"},
+        {"nombre": "CARLOS JÉREZ", "categoria": "DC"},
+        {"nombre": "KEVIN MARTÍN", "categoria": "DC"},
+        {"nombre": "MARCOS TEJERA", "categoria": "DC"},
+        {"nombre": "ADAY REVERÓN", "categoria": "DC"},
+        {"nombre": "RAÚL DÍAZ", "categoria": "LIBRE"},
+        {"nombre": "ADRIÁN CANO", "categoria": "LIBRE"},
+        {"nombre": "AITAMI REVERÓN", "categoria": "LIBRE"},
+        {"nombre": "BERTO FUMERO", "categoria": "LIBRE"},
+        {"nombre": "CRISTO LEÓN", "categoria": "JUVENIL"},
+        {"nombre": "LAMINE DIENG", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "CAMPITOS",
+      "isla": "TENERIFE",
+      "logo": "assets/images/campitos.png",
+      "luchadores": [
+        {"nombre": "MARCOS LEDESMA", "categoria": "PA"},
+        {"nombre": "RAÚL GONZÁLEZ", "categoria": "PC"},
+        {"nombre": "AITOR DÍAZ", "categoria": "DB"},
+        {"nombre": "SAMBA", "categoria": "DB"},
+        {"nombre": "ROQUE ARBELO", "categoria": "LIBRE"}
+      ]
+    },
+    {
+      "nombre": "CASTRO MORALES",
+      "isla": "GRAN CANARIA",
+      "logo": "assets/images/castro.png",
+      "luchadores": [
+        {"nombre": "KEVIN ACOSTA", "categoria": "PA"},
+        {"nombre": "MARCOS CORREIA", "categoria": "DB"},
+        {"nombre": "JAIME RIVERO", "categoria": "DB"},
+        {"nombre": "PACO LUIS SANTANA", "categoria": "DB"},
+        {"nombre": "JORGE RIVERO", "categoria": "DC"},
+        {"nombre": "CRISTIAN SANTANA", "categoria": "DC"},
+        {"nombre": "YENEDEY GIL", "categoria": "JUVENIL"}
+      ]
+    },
+     {
+      "nombre": "ALMOGARÉN",
+      "isla": "GRAN CANARIA",
+      "logo": "assets/images/almogaren.png",
+      "luchadores": [
+        {"nombre": "ÁLVARO DÉNIZ", "categoria": "PB"},
+        {"nombre": "ISMAEL DÉNIZ", "categoria": "PC"},
+        {"nombre": "CRISTO HERNÁNDEZ", "categoria": "PC"},
+        {"nombre": "FRANCISCO CAZORLA", "categoria": "DB"},
+        {"nombre": "JONATHAN GONZÁLEZ", "categoria": "DC"},
+        {"nombre": "LEANDRO GONZÁLEZ", "categoria": "DC"},
+        {"nombre": "CRISTO LÓPEZ", "categoria": "DC"},
+        {"nombre": "HILQUIAS JIMÉNEZ", "categoria": "LIBRE"},
+        {"nombre": "ORLANDO TRUJILLO", "categoria": "LIBRE"},
+        {"nombre": "ADAY GUEDES", "categoria": "LIBRE"},
+        {"nombre": "KEVIN HERNÁNDEZ", "categoria": "LIBRE"},
+        {"nombre": "SONY SANTANA", "categoria": "LIBRE"},
+        {"nombre": "IRVING LANDAETA", "categoria": "LIBRE"}
+      ]
+    },
+    {
+      "nombre": "UNIÓN GÁLDAR",
+      "isla": "GRAN CANARIA",
+      "logo": "assets/images/galdar.png",
+      "luchadores": [
+        {"nombre": "ALBERTO ZAMORA", "categoria": "PA"},
+        {"nombre": "AIRAM GORDILLO", "categoria": "DC"},
+        {"nombre": "YERAY HERNÁNDEZ", "categoria": "DC"},
+        {"nombre": "JOSUÉ MONZÓN", "categoria": "LIBRE"},
+        {"nombre": "ANICETO REYES", "categoria": "LIBRE"},
+        {"nombre": "ACORÁN DOMÍNGUEZ", "categoria": "LIBRE"},
+        {"nombre": "LUCAS SUÁREZ", "categoria": "LIBRE"},
+        {"nombre": "NAUZET TRUJILLO", "categoria": "LIBRE"},
+        {"nombre": "JOSUA GARCÍA", "categoria": "LIBRE"},
+        {"nombre": "SANTIAGO LÓPEZ", "categoria": "LIBRE"}
+      ]
+    },
+    {
+      "nombre": "CASTILLO",
+      "isla": "GRAN CANARIA",
+      "logo": "assets/images/castillo.png",
+      "luchadores": [
+        {"nombre": "MIGUEL PÉREZ", "categoria": "PB"},
+        {"nombre": "AÑATERVE ABREU", "categoria": "PC"},
+        {"nombre": "RAYCO SANTIAGO", "categoria": "PC"},
+        {"nombre": "JUAN DEL TORO", "categoria": "DC"},
+        {"nombre": "MANUEL DEL TORO", "categoria": "LIBRE"}
+      ]
+    },
+    {
+      "nombre": "MAXORATA",
+      "isla": "FUERTEVENTURA",
+      "logo": "assets/images/maxorata.png",
+      "luchadores": [
+        {"nombre": "KIREN GONZÁLEZ", "categoria": "PA"},
+        {"nombre": "AGUSTÍN MATOSO", "categoria": "PC"},
+        {"nombre": "VALENTÍN TORRES", "categoria": "DA"},
+        {"nombre": "KILIAN LEÓN", "categoria": "DB"},
+        {"nombre": "KEVIN PÉREZ", "categoria": "DC"},
+        {"nombre": "KIKO ELVIRA", "categoria": "DC"},
+        {"nombre": "MANUEL CANO", "categoria": "DC"},
+        {"nombre": "TOMÁS CABRERA", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "UNIÓN TETIR",
+      "isla": "FUERTEVENTURA",
+      "logo": "assets/images/tetir.png",
+      "luchadores": [
+        {"nombre": "SAÚL JÍMENEZ", "categoria": "PB"},
+        {"nombre": "FRANCISCO RODRÍGUEZ", "categoria": "DA"},
+        {"nombre": "SAMUEL TORRES", "categoria": "DA"},
+        {"nombre": "YEROVER GARCÍA", "categoria": "DA"},
+        {"nombre": "JUAN MIGUEL GIL", "categoria": "DB"},
+        {"nombre": "ZEUS CASANOVA", "categoria": "DC"}
+      ]
+    },
+    {
+      "nombre": "UNIÓN ANTIGUA",
+      "isla": "FUERTEVENTURA",
+      "logo": "assets/images/antigua.png",
+      "luchadores": [
+        {"nombre": "PEDRO HERNÁNDEZ", "categoria": "PA"},
+        {"nombre": "JONAY MATOSO", "categoria": "PC"},
+        {"nombre": "SAMUEL CABRERA", "categoria": "DA"},
+        {"nombre": "GABRIEL TORRES", "categoria": "DB"},
+        {"nombre": "AYOZE DE LEÓN", "categoria": "DC"},
+        {"nombre": "AYOZE REYES", "categoria": "DC"},
+        {"nombre": "BRUNO CASTAÑO", "categoria": "DC"},
+        {"nombre": "ANCOR MESA", "categoria": "LIBRE"},
+        {"nombre": "JONATHAN BRITO", "categoria": "LIBRE"},
+        {"nombre": "HUGO MATOSO", "categoria": "JUVENIL"}
+      ]
+    },
+    {
+      "nombre": "ROSARIO FTV",
+      "isla": "FUERTEVENTURA",
+      "logo": "assets/images/rosarioftv.png",
+      "luchadores": [
+        {"nombre": "TOMASÍN PADRÓN", "categoria": "PB"},
+        {"nombre": "JOSÉ DE LEÓN", "categoria": "DA"},
+        {"nombre": "ANDRÉS GUILLÉN", "categoria": "DA"},
+        {"nombre": "ADRIÁN GONZÁLEZ", "categoria": "DA"},
+        {"nombre": "JOSÉ JUAN BORGES", "categoria": "DC"},
+        {"nombre": "ALEJANDRO QUESADA", "categoria": "DC"}
+      ]
+    },
+    {
+      "nombre": "SALADAR",
+      "isla": "FUERTEVENTURA",
+      "logo": "assets/images/saladar.png",
+      "luchadores": [
+        {"nombre": "MIGUEL HERNÁNDEZ", "categoria": "PA"},
+        {"nombre": "ECHEDEY ZAMORA", "categoria": "PC"},
+        {"nombre": "JOSÉ MONZÓN", "categoria": "DA"},
+        {"nombre": "ISMAEL ETEFÍA", "categoria": "DB"},
+        {"nombre": "CANICHE", "categoria": "DC"},
+        {"nombre": "MANUEL HERNÁNDEZ", "categoria": "DC"},
+        {"nombre": "MAYCOL DÍAZ", "categoria": "LIBRE"},
+        {"nombre": "MAYCOL DÍAZ", "categoria": "LIBRE"},
+        {"nombre": "DAVID SANTANA", "categoria": "LIBRE"},
+        {"nombre": "JESÚS ÁVILA", "categoria": "LIBRE"},
+        {"nombre": "JAVITO ARMAS", "categoria": "LIBRE"},
+        {"nombre": "BORJA PÉREZ", "categoria": "LIBRE"},
+        {"nombre": "ACAYMO DÍAZ", "categoria": "LIBRE"},
+        {"nombre": "HÉCTOR BENÍTEZ", "categoria": "LIBRE"},
+        {"nombre": "JAVIER COSME", "categoria": "JUVENIL"},
+        {"nombre": "VICTOR TRUJILLO", "categoria": "JUVENIL"},
+        {"nombre": "DYLAN DÍAZ", "categoria": "JUVENIL"}
+      ]
+    }
+  ]
+}

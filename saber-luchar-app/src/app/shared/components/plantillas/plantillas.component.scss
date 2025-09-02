@@ -1,0 +1,91 @@
+.plantillas-select-native {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  margin: 1px 0 0 8px;
+}
+
+.plantillas-select-native select {
+  width: 100%;
+  padding: 30px 12px 8px 12px;
+  background-color: #2997df;
+  color: #ffd21f;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  appearance: none;
+}
+
+.plantillas-select-native .floating-label {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffd21f;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.plantillas-select-native select:focus + .floating-label,
+.plantillas-select-native select:valid + .floating-label {
+  transform: translateY(-18px);
+  font-size: 20px;
+}
+
+.plantillas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0;
+  padding: 8px;
+}
+
+.equipo-card {
+  flex: 1 1 300px;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.equipo-header {
+  display: flex;
+  align-items: center;
+  background-color: #2997df;
+  color: #ffd21f;
+  padding: 12px;
+  border-radius: 12px 12px 0 0;
+}
+
+.equipo-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 12px;
+}
+
+.equipo-card h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.plantilla-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.plantilla-table th,
+.plantilla-table td {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  text-align: left;
+}
