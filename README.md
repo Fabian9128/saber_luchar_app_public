@@ -1,4 +1,4 @@
-# 📌 Saber Luchar App (versión pública) / Saber Luchar App (public version)
+# 📌 Saber Luchar App (versión pública) / (public version)
 
 Este repositorio contiene una **versión pública y simplificada** de la aplicación **Saber Luchar**, cuyo objetivo es mostrar la estructura, diseño y funcionamiento general de la app.
 

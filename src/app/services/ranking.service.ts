@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, map, catchError } from 'rxjs';
+import { Observable, map } from 'rxjs';
 
 export interface Player
 {
@@ -19,28 +19,10 @@ export class RankingService
 
   getPlayers(type: 'historica' | 'general' | 'insular' | 'regional'): Observable<Player[]>
   {
-    const url = this.getUrl(type);
+    const url = `assets/${type}.csv`;
     return this.http.get(url, { responseType: 'text' }).pipe(
-      catchError(() => this.http.get(`assets/${type}.csv`, { responseType: 'text' })),
       map(csv => this.csvToPlayers(csv))
     );
-  }
-
-  private getUrl(type: 'historica' | 'general' | 'insular' | 'regional'): string
-  {
-    switch (type)
-    {
-      case 'historica':
-        return 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTLxRgLMgXXCtURQLPP3KbhwdAlT2-64i0gFxm3VEFACOGcToyKGXcl9sCWHBCDrcnhKoH9PV7H5ZnF/pub?gid=32255741&single=true&output=csv';
-      case 'general':
-        return 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTLxRgLMgXXCtURQLPP3KbhwdAlT2-64i0gFxm3VEFACOGcToyKGXcl9sCWHBCDrcnhKoH9PV7H5ZnF/pub?gid=0&single=true&output=csv';
-      case 'insular':
-        return 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTLxRgLMgXXCtURQLPP3KbhwdAlT2-64i0gFxm3VEFACOGcToyKGXcl9sCWHBCDrcnhKoH9PV7H5ZnF/pub?gid=160720217&single=true&output=csv';
-      case 'regional':
-        return 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTLxRgLMgXXCtURQLPP3KbhwdAlT2-64i0gFxm3VEFACOGcToyKGXcl9sCWHBCDrcnhKoH9PV7H5ZnF/pub?gid=213807830&single=true&output=csv';
-      default:
-        return '';
-    }
   }
 
   private csvToPlayers(csv: string): Player[]

@@ -1,9 +1,9 @@
 {
   "cuartos": [
-    { "local": "1º CLASIFICADO", "visitante": "8º CLASIFICADO", "idaLocal": "0", "idaVisitante": "0", "vueltaLocal": "0", "vueltaVisitante": "0" },
-    { "local": "4º CLASIFICADO", "visitante": "5º CLASIFICADO", "idaLocal": "0", "idaVisitante": "0", "vueltaLocal": "0", "vueltaVisitante": "0" },
-    { "local": "3º CLASIFICADO", "visitante": "6º CLASIFICADO", "idaLocal": "0", "idaVisitante": "0", "vueltaLocal": "0", "vueltaVisitante": "0" },
-    { "local": "2º CLASIFICADO", "visitante": "7º CLASIFICADO", "idaLocal": "0", "idaVisitante": "0", "vueltaLocal": "0", "vueltaVisitante": "0" }
+    { "local": "1º CLASIFICADO", "visitante": "8º CLASIFICADO", "idaLocal": "9", "idaVisitante": "16", "vueltaLocal": "3", "vueltaVisitante": "23" },
+    { "local": "4º CLASIFICADO", "visitante": "5º CLASIFICADO", "idaLocal": "15", "idaVisitante": "13", "vueltaLocal": "8", "vueltaVisitante": "9" },
+    { "local": "3º CLASIFICADO", "visitante": "6º CLASIFICADO", "idaLocal": "9", "idaVisitante": "18", "vueltaLocal": "15", "vueltaVisitante": "17" },
+    { "local": "2º CLASIFICADO", "visitante": "7º CLASIFICADO", "idaLocal": "20", "idaVisitante": "4", "vueltaLocal": "20", "vueltaVisitante": "3" }
   ],
   "semifinales": [
     { "local": "VENCEDOR CUARTOS 1", "visitante": "VENCEDOR CUARTOS 2", "idaLocal": "0", "idaVisitante": "0", "vueltaLocal": "0", "vueltaVisitante": "0" },
