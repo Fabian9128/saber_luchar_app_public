@@ -1,59 +1,69 @@
-# SaberLucharApp
+# 📌 Saber Luchar App (versión pública) / Saber Luchar App (public version)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
+Este repositorio contiene una **versión pública y simplificada** de la aplicación **Saber Luchar**, cuyo objetivo es mostrar la estructura, diseño y funcionamiento general de la app.
 
-## Development server
+⚠️ **Nota importante**:
+- Todos los datos incluidos (usuarios, contenidos, estadísticas, etc.) son **ficticios** y se utilizan únicamente con fines de **demostración y prueba**.
+- Esta versión no contiene información sensible, credenciales ni datos reales.
+- El proyecto no está conectado a un backend real; los datos son fijos para facilitar su ejecución inmediata.
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## ✨ Características principales / Main features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Interfaz intuitiva y fácil de usar / Intuitive and easy-to-use interface
+- Datos de prueba cargados de forma local para permitir la demostración sin configuración adicional / Local mock data for easy demo without extra setup
+- Código limpio y organizado, fácilmente extensible / Clean and organized code, easily extensible
+- Proyecto orientado a mostrar buenas prácticas de desarrollo frontend / Focused on frontend best practices
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠️ Tecnologías utilizadas / Technologies used
 
-```bash
-ng generate component component-name
-```
+- **Frontend**: Angular 15+
+- **Estilos / Styles**: CSS / Tailwind (según corresponda / if applicable)
+- **Gestión de estado / State management**: Angular Services & RxJS
+- **Datos / Data**: Mock data local (JSON examples)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🚀 Instalación y ejecución / Installation & run
 
-## Building
+1. Clonar el repositorio / Clone the repository:
+   ```bash
+   git clone https://github.com/Fabian9128/saber-luchar-app-public.git
 
-To build the project run:
+2. Entrar en la carpeta del proyecto / Navigate into the project folder:
+   ```bash
+   cd saber-luchar-app-public
 
-```bash
-ng build
-```
+3. Instalar dependencias / Install dependencies:
+   ```bash
+   npm install
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+4. Ejecutar en modo desarrollo / Run in development mode:
+   ```bash
+   ng serve
 
-## Running unit tests
+5. Abrir en el navegador / Open in browser:
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+   http://localhost:4200
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+## 📖 Notas adicionales / Additional notes
 
-For end-to-end (e2e) testing, run:
+Esta es una versión demostrativa.
 
-```bash
-ng e2e
-```
+Para un despliegue real, la aplicación debería conectarse a un backend y base de datos.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+El código está pensado como ejemplo para revisión técnica y portafolio.
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 👨‍💻 Autor / Author
+
+Fabián González Suárez
+
+LinkedIn: linkedin.com/in/fabiangonzalezsuarez
+GitHub: github.com/Fabian9128

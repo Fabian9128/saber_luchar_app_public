@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, map, catchError } from 'rxjs';
+import { Observable, map } from 'rxjs';
 
 export interface Lucha
 {
@@ -18,10 +18,19 @@ export class LigaService
 {
   constructor(private http: HttpClient) {}
 
-  getLuchas(url: string, fallbackCsv?: string, jornada?: number): Observable<Lucha[]>
+  getLuchas(_url: string, fallbackCsv?: string, jornada?: number): Observable<Lucha[]>
   {
-    return this.http.get(url, { responseType: 'text' }).pipe(
-      catchError(() => fallbackCsv ? this.http.get(fallbackCsv, { responseType: 'text' }) : []),
+    if (!fallbackCsv)
+    {
+      console.warn('No fallback CSV provided. Returning empty array.');
+      return new Observable<Lucha[]>(subscriber =>
+      {
+        subscriber.next([]);
+        subscriber.complete();
+      });
+    }
+
+    return this.http.get(fallbackCsv, { responseType: 'text' }).pipe(
       map(csv => this.csvToLuchas(csv, jornada))
     );
   }
