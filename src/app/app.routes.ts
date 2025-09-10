@@ -6,6 +6,7 @@ import { PlantillasComponent } from './shared/components/plantillas/plantillas.c
 import { RankingComponent } from './shared/components/ranking/ranking.component';
 import { LigaInsularComponent } from './shared/components/liga-insular/liga-insular.component';
 import { LigaRegionalComponent } from './shared/components/liga-regional/liga-regional.component';
+import { CopaRegionalComponent } from './shared/components/copa-regional/copa-regional.component';
 
 export const routes: Routes =
 [
@@ -18,7 +19,8 @@ export const routes: Routes =
       { path: 'plantillas', component: PlantillasComponent },
       { path: 'clasificaciones', component: RankingComponent },
       { path: 'liga-insular', component: LigaInsularComponent },
-      { path: 'liga-regional', component: LigaRegionalComponent }
+      { path: 'liga-regional', component: LigaRegionalComponent },
+      { path: 'copa-regional', component: CopaRegionalComponent }
     ]
   }
 ];

@@ -4,45 +4,46 @@
   width: 100%;
   max-width: 400px;
   margin: 8px 0;
-}
 
-.ranking-select-native select {
-  width: 100%;
-  padding: 30px 12px 8px 12px;
-  background-color: #2997df;
-  color: #ffd21f;
-  border: none;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: bold;
-  appearance: none;
-}
+  select {
+    width: 100%;
+    padding: 30px 12px 8px 12px;
+    background-color: #2997df;
+    color: #ffd21f;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    appearance: none;
+  }
 
-.ranking-select-native .floating-label {
-  position: absolute;
-  top: 25px;
-  left: 12px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #ffd21f;
-  pointer-events: none;
-  transition: 0.2s ease all;
-}
+  .floating-label {
+    position: absolute;
+    top: 25px;
+    left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffd21f;
+    pointer-events: none;
+    transition: 0.2s ease all;
+  }
 
-.ranking-select-native select:focus + .floating-label,
-.ranking-select-native.has-value .floating-label {
-  transform: translateY(-18px);
-  font-size: 20px;
+  select:focus + .floating-label,
+  &.has-value .floating-label {
+    transform: translateY(-18px);
+    font-size: 20px;
+  }
 }
 
 .ranking-container {
   max-width: 1400px;
   width: 100%;
   margin: 2px auto;
-  padding: 8px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #ffffff;
 }
 
 .ranking-header {
@@ -51,11 +52,11 @@
   padding: 12px;
   border-radius: 4px 4px 0 0;
   text-align: center;
-}
 
-.ranking-header h1 {
-  margin: 0;
-  font-size: 20px;
+  h1 {
+    margin: 0;
+    font-size: 20px;
+  }
 }
 
 .loading {
@@ -64,21 +65,37 @@
   padding: 24px 0;
 }
 
-.table-container {
+.table-scroll {
   width: 100%;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-container {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0 0 4px 4px;
 }
 
 .ranking-table {
-  width: auto;
+  width: 100%;
+  min-width: 600px;
   font-size: 13px;
   border-collapse: collapse;
-}
+  table-layout: fixed;
 
-.ranking-table th,
-.ranking-table td {
-  padding: 6px 10px;
-  text-align: left;
+  th, td {
+    padding: 6px 10px;
+    text-align: left;
+  }
+
+  th:first-child {
+    border-top-left-radius: 4px;
+  }
+
+  th:last-child {
+    border-top-right-radius: 4px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -88,10 +105,6 @@
 
   .ranking-header h1 {
     font-size: 1.2rem;
-  }
-
-  .table-container {
-    padding: 0 4px;
   }
 
   .ranking-table {

@@ -19,7 +19,7 @@ import { MatSidenavModule, MatDrawer } from '@angular/material/sidenav';
 })
 export class MenuComponent
 {
-  @Input() drawer: MatDrawer | null = null;  // 👈 aquí
+  @Input() drawer: MatDrawer | null = null;
 
   private router = inject(Router);
 
@@ -56,6 +56,12 @@ export class MenuComponent
   navigateToLigaRegional()
   {
     this.router.navigate(['/liga-regional']);
+    this.drawer?.close();
+  }
+
+  navigateToCopaRegional()
+  {
+    this.router.navigate(['/copa-regional']);
     this.drawer?.close();
   }
 }

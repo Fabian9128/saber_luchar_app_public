@@ -1,0 +1,142 @@
+.bracket-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin: 16px auto;
+  padding: 10px 8px;
+  gap: 4vw;
+  -webkit-overflow-scrolling: touch;
+}
+
+.round-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.round-title {
+  font-size: 1.2vw;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5vh;
+  text-align: center;
+  width: 100%;
+}
+
+.cuartos-column .bracket-grid {
+  position: absolute;
+  left: 5%;
+  height: 50%;
+}
+
+.cuartos-column .match-table {
+  position: absolute;
+}
+
+.cuartos-column .match-table:nth-child(1) { top: 15%; }
+.cuartos-column .match-table:nth-child(2) { top: 55%; }
+.cuartos-column .match-table:nth-child(3) { top: 95%; }
+.cuartos-column .match-table:nth-child(4) { top: 135%; }
+
+.semifinales-column .bracket-grid {
+  position: absolute;
+  left: 30%;
+  height: 20%;
+}
+
+.semifinales-column .match-table {
+  position: absolute;
+}
+
+.semifinales-column .match-table:nth-child(1) { top: 90%; }
+.semifinales-column .match-table:nth-child(2) { top: 290%; }
+
+.final-column .bracket-grid {
+  position: absolute;
+  left: 57%;
+  height: 50%;
+}
+
+.final-column .match-table {
+  position: absolute;
+}
+
+.final-column .match-table:nth-child(1) { top: 60%; }
+.final-column .match-table:nth-child(2) { top: 90%; }
+
+.match-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.match-table td {
+  border: 1px solid #ddd;
+  padding: 1vh 1vw;
+  font-size: 1vw;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.match-table td.equipo { background-color: #2997df; color: #ffd21f; font-weight: bold; }
+.match-table td.ida { background-color: #fff; color: #000; }
+.match-table td.vuelta { background-color: #fff; color: #000; }
+.match-table td.total { background-color: #f2f2f2; font-weight: bold; }
+.match-table td.dorado { background-color: #ab9206a2; }
+
+@media (max-width: 1024px) {
+  .bracket-container {
+    gap: 3vw;
+  }
+
+  .round-column {
+    min-width: 180px;
+    flex-shrink: 0;
+    padding: 0 4px;
+  }
+
+  .round-title {
+    font-size: 1.5vw;
+    width: 100%;
+    margin: 0 0 3vh 0;
+    text-align: center;
+    transform: none;
+  }
+
+  .match-table td {
+    font-size: 1.2vw;
+    padding: 0.8vh 0.8vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .bracket-container {
+    gap: 2vw;
+  }
+
+  .round-column {
+    min-width: 90px;
+    flex-shrink: 0;
+    padding: 0 4px;
+  }
+
+  .round-title {
+    font-size: 2vw;
+    width: 100%;
+    margin: 0 0 3vh 0;
+    text-align: center;
+    transform: none;
+  }
+
+  .match-table td {
+    font-size: 2vw;
+    padding: 0.8vh 0.8vw;
+  }
+}

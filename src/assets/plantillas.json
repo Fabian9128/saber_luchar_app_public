@@ -16,8 +16,7 @@
         {"nombre": "ACORÁN MONTESINOS", "categoria": "LIBRE"},
         {"nombre": "YERAI RUSO", "categoria": "LIBRE"},
         {"nombre": "ABRAHAM PÉREZ", "categoria": "LIBRE"},
-        {"nombre": "ALEJANDRO MARTÍN", "categoria": "LIBRE"},
-        {"nombre": "JEROME SUÁREZ", "categoria": "LIBRE"}
+        {"nombre": "ALEJANDRO MARTÍN", "categoria": "LIBRE"}
       ]
     },
     {
@@ -33,8 +32,11 @@
         {"nombre": "MIGUEL RODRÍGUEZ", "categoria": "DC"},
         {"nombre": "JOAQUÍN BARROSO", "categoria": "LIBRE"},
         {"nombre": "NAUZET ARROCHA", "categoria": "LIBRE"},
-        {"nombre": "NICOLÁS", "categoria": "JUVENIL"},
+        {"nombre": "AYOZE BATISTA", "categoria": "LIBRE"},
+        {"nombre": "YERAY CABRERA", "categoria": "LIBRE"},
+        {"nombre": "NICOLÁS PÉREZ", "categoria": "JUVENIL"},
         {"nombre": "OMAR DE CONCEPCIÓN", "categoria": "JUVENIL"},
+        {"nombre": "HUGO MONTESINO", "categoria": "JUVENIL"},
         {"nombre": "IKER PIÑERO", "categoria": "JUVENIL"}
       ]
     },
@@ -60,7 +62,6 @@
         {"nombre": "CARLOS MATOSO", "categoria": "DA"},
         {"nombre": "YERAY HERNÁNDEZ", "categoria": "DA"},
         {"nombre": "TANAUSÚ BARRETO", "categoria": "DC"},
-        {"nombre": "ALEXANDER GONZÁLEZ", "categoria": "DC"},
         {"nombre": "NACOR", "categoria": "JUVENIL"},
         {"nombre": "ALEXIS", "categoria": "JUVENIL"},
         {"nombre": "ÁLVARO", "categoria": "JUVENIL"},
@@ -138,7 +139,10 @@
         {"nombre": "NAUZET MARTÍN", "categoria": "DC"},
         {"nombre": "ALEJANDRO LEÓN", "categoria": "DC"},
         {"nombre": "JONATHAN HERNÁNDEZ", "categoria": "DC"},
-        {"nombre": "DAVID DÍAZ", "categoria": "LIBRE"}
+        {"nombre": "DAVID DÍAZ", "categoria": "LIBRE"},
+        {"nombre": "YOEL RAMOS", "categoria": "LIBRE"},
+        {"nombre": "DANIEL DE DIOS", "categoria": "LIBRE"},
+        {"nombre": "BOUBACAR CISSOKO", "categoria": "LIBRE"}
       ]
     },
     {
@@ -150,12 +154,15 @@
         {"nombre": "RUBÉN GALVÁN", "categoria": "PC"},
         {"nombre": "ANCOR SUÁREZ", "categoria": "DB"},
         {"nombre": "SANDRO RAMOS", "categoria": "DB"},
-        {"nombre": "LUIS GUTIÉRREZ", "categoria": "DC"},
         {"nombre": "JOAQUÍN PÉREZ", "categoria": "DC"},
-        {"nombre": "ANATHAEL ACOSTA", "categoria": "DC"},
+        {"nombre": "LUIS GUTIÉRREZ", "categoria": "DC"},
         {"nombre": "ERIK MORÍN", "categoria": "DC"},
+        {"nombre": "ANATHAEL ACOSTA", "categoria": "DC"},
         {"nombre": "DEREK ALONSO", "categoria": "LIBRE"},
         {"nombre": "IRIOME LÓPEZ", "categoria": "JUVENIL"},
+        {"nombre": "JOSÉ BERMUDO", "categoria": "JUVENIL"},
+        {"nombre": "ABRAHAM PERAZA", "categoria": "JUVENIL"},
+        {"nombre": "OLIVER DÍAZ", "categoria": "JUVENIL"},
         {"nombre": "HÉCTOR PÉREZ", "categoria": "JUVENIL"}
       ]
     },
@@ -169,14 +176,13 @@
         {"nombre": "DORAMAS INFANTE", "categoria": "DB"},
         {"nombre": "EUSEBIO DÍAZ", "categoria": "DB"},
         {"nombre": "ABIÁN GONZÁLEZ", "categoria": "DC"},
-        {"nombre": "SHANE HERNÁNDEZ", "categoria": "DC"},
+        {"nombre": "SHANE FERNÁNDEZ", "categoria": "DC"},
         {"nombre": "BERLAMINO GOYA", "categoria": "DC"},
         {"nombre": "CARLOS PERAZA", "categoria": "DC"},
         {"nombre": "BRIAN BARROSO", "categoria": "LIBRE"},
         {"nombre": "JEAN PIERRE", "categoria": "LIBRE"},
         {"nombre": "ISMAELLA SEYE", "categoria": "LIBRE"},
         {"nombre": "YERAY DÍAZ", "categoria": "LIBRE"},
-        {"nombre": "AARON GONZÁLEZ", "categoria": "JUVENIL"},
         {"nombre": "ÁNGEL SOSA", "categoria": "JUVENIL"},
         {"nombre": "DIEGO FUENTES", "categoria": "JUVENIL"}
       ]
@@ -198,7 +204,8 @@
         {"nombre": "AITAMI REVERÓN", "categoria": "LIBRE"},
         {"nombre": "BERTO FUMERO", "categoria": "LIBRE"},
         {"nombre": "CRISTO LEÓN", "categoria": "JUVENIL"},
-        {"nombre": "LAMINE DIENG", "categoria": "JUVENIL"}
+        {"nombre": "LAMINE DIENG", "categoria": "JUVENIL"},
+        {"nombre": "EUSEBIO JORGE", "categoria": "JUVENIL"}
       ]
     },
     {
@@ -209,8 +216,15 @@
         {"nombre": "MARCOS LEDESMA", "categoria": "PA"},
         {"nombre": "RAÚL GONZÁLEZ", "categoria": "PC"},
         {"nombre": "AITOR DÍAZ", "categoria": "DB"},
-        {"nombre": "SAMBA", "categoria": "DB"},
-        {"nombre": "ROQUE ARBELO", "categoria": "LIBRE"}
+        {"nombre": "KHADIM GUEYE", "categoria": "DB"},
+        {"nombre": "DANIEL MONTEIH", "categoria": "DC"},
+        {"nombre": "CARLOS CABRERA", "categoria": "LIBRE"},
+        {"nombre": "MIGUEL GARCÍA", "categoria": "LIBRE"},
+        {"nombre": "JAVIER DÍAZ", "categoria": "LIBRE"},
+        {"nombre": "JORGE DÍAZ", "categoria": "LIBRE"},
+        {"nombre": "ROQUE ARBELO", "categoria": "LIBRE"},
+        {"nombre": "WILLIAM DÍAZ", "categoria": "LIBRE"},
+        {"nombre": "MICHEL NODOFFENE", "categoria": "LIBRE"}
       ]
     },
     {
@@ -221,9 +235,14 @@
         {"nombre": "KEVIN ACOSTA", "categoria": "PA"},
         {"nombre": "MARCOS CORREIA", "categoria": "DB"},
         {"nombre": "JAIME RIVERO", "categoria": "DB"},
-        {"nombre": "PACO LUIS SANTANA", "categoria": "DB"},
-        {"nombre": "JORGE RIVERO", "categoria": "DC"},
+        {"nombre": "YEREMAY DÉVORA", "categoria": "DB"},
+        {"nombre": "JUAN RAMÓN SÁNCHEZ", "categoria": "DC"},
+        {"nombre": "EDUARDO FUMERO", "categoria": "DC"},
         {"nombre": "CRISTIAN SANTANA", "categoria": "DC"},
+        {"nombre": "JUAN RAMÓN SÁNCHEZ", "categoria": "DC"},
+        {"nombre": "NELSON MOLINA", "categoria": "LIBRE"},
+        {"nombre": "ULISES GONZÁLEZ", "categoria": "LIBRE"},
+        {"nombre": "CLAUDIO AMADOR", "categoria": "LIBRE"},
         {"nombre": "YENEDEY GIL", "categoria": "JUVENIL"}
       ]
     },
@@ -236,15 +255,17 @@
         {"nombre": "ISMAEL DÉNIZ", "categoria": "PC"},
         {"nombre": "CRISTO HERNÁNDEZ", "categoria": "PC"},
         {"nombre": "FRANCISCO CAZORLA", "categoria": "DB"},
-        {"nombre": "JONATHAN GONZÁLEZ", "categoria": "DC"},
         {"nombre": "LEANDRO GONZÁLEZ", "categoria": "DC"},
+        {"nombre": "JONATHAN GONZÁLEZ", "categoria": "DC"},
         {"nombre": "CRISTO LÓPEZ", "categoria": "DC"},
         {"nombre": "HILQUIAS JIMÉNEZ", "categoria": "LIBRE"},
         {"nombre": "ORLANDO TRUJILLO", "categoria": "LIBRE"},
-        {"nombre": "ADAY GUEDES", "categoria": "LIBRE"},
-        {"nombre": "KEVIN HERNÁNDEZ", "categoria": "LIBRE"},
         {"nombre": "SONY SANTANA", "categoria": "LIBRE"},
-        {"nombre": "IRVING LANDAETA", "categoria": "LIBRE"}
+        {"nombre": "KEVIN HERNÁNDEZ", "categoria": "LIBRE"},
+        {"nombre": "IRVING LANDAETA", "categoria": "LIBRE"},
+        {"nombre": "ADAY GUEDES", "categoria": "LIBRE"},
+        {"nombre": "IRVING LANDAETA", "categoria": "LIBRE"},
+        {"nombre": "RAYCO LÓPEZ", "categoria": "JUVENIL"}
       ]
     },
     {
@@ -285,10 +306,16 @@
         {"nombre": "AGUSTÍN MATOSO", "categoria": "PC"},
         {"nombre": "VALENTÍN TORRES", "categoria": "DA"},
         {"nombre": "KILIAN LEÓN", "categoria": "DB"},
-        {"nombre": "KEVIN PÉREZ", "categoria": "DC"},
         {"nombre": "KIKO ELVIRA", "categoria": "DC"},
+        {"nombre": "KEVIN PÉREZ", "categoria": "DC"},
         {"nombre": "MANUEL CANO", "categoria": "DC"},
-        {"nombre": "TOMÁS CABRERA", "categoria": "JUVENIL"}
+        {"nombre": "DIEGO RODRÍGUEZ", "categoria": "LIBRE"},
+        {"nombre": "IVÁN TORRES", "categoria": "LIBRE"},
+        {"nombre": "GABINO HERRERA", "categoria": "LIBRE"},
+        {"nombre": "RAMÓN REYES", "categoria": "LIBRE"},
+        {"nombre": "DANIEL AFONSO", "categoria": "LIBRE"},
+        {"nombre": "TOMÁS CABRERA", "categoria": "JUVENIL"},
+        {"nombre": "TAZARTE RODRÍGUEZ", "categoria": "JUVENIL"}
       ]
     },
     {
@@ -313,9 +340,6 @@
         {"nombre": "JONAY MATOSO", "categoria": "PC"},
         {"nombre": "SAMUEL CABRERA", "categoria": "DA"},
         {"nombre": "GABRIEL TORRES", "categoria": "DB"},
-        {"nombre": "AYOZE DE LEÓN", "categoria": "DC"},
-        {"nombre": "AYOZE REYES", "categoria": "DC"},
-        {"nombre": "BRUNO CASTAÑO", "categoria": "DC"},
         {"nombre": "ANCOR MESA", "categoria": "LIBRE"},
         {"nombre": "JONATHAN BRITO", "categoria": "LIBRE"},
         {"nombre": "HUGO MATOSO", "categoria": "JUVENIL"}

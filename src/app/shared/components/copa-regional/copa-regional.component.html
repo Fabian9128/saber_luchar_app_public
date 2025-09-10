@@ -1,0 +1,102 @@
+<div class="bracket-container">
+
+  <div class="round-column cuartos-column">
+    <h2 class="round-title">CUARTOS DE FINAL</h2>
+    <div class="bracket-grid">
+      <div class="match-table" *ngFor="let m of cuartos">
+        <table>
+          <tr>
+            <td class="equipo">{{ m.local || '???' }}</td>
+            <td class="ida">{{ m.idaLocal || 0 }}</td>
+            <td class="vuelta">{{ m.vueltaLocal || 0 }}</td>
+            <td class="total" [ngClass]="getTotalClass(m, true)">
+              {{ getTotal(m.idaLocal, m.vueltaLocal) }}
+            </td>
+          </tr>
+          <tr>
+            <td class="equipo">{{ m.visitante || '???' }}</td>
+            <td class="ida">{{ m.idaVisitante || 0 }}</td>
+            <td class="vuelta">{{ m.vueltaVisitante || 0 }}</td>
+            <td class="total" [ngClass]="getTotalClass(m, false)">
+              {{ getTotal(m.idaVisitante, m.vueltaVisitante) }}
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="round-column semifinales-column">
+    <h2 class="round-title">SEMIFINALES</h2>
+    <div class="bracket-grid">
+      <div class="match-table" *ngFor="let m of semifinales">
+        <table>
+          <tr>
+            <td class="equipo">{{ m.local || '???' }}</td>
+            <td class="ida">{{ m.idaLocal || 0 }}</td>
+            <td class="vuelta">{{ m.vueltaLocal || 0 }}</td>
+            <td class="total" [ngClass]="getTotalClass(m, true)">
+              {{ getTotal(m.idaLocal, m.vueltaLocal) }}
+            </td>
+          </tr>
+          <tr>
+            <td class="equipo">{{ m.visitante || '???' }}</td>
+            <td class="ida">{{ m.idaVisitante || 0 }}</td>
+            <td class="vuelta">{{ m.vueltaVisitante || 0 }}</td>
+            <td class="total" [ngClass]="getTotalClass(m, false)">
+              {{ getTotal(m.idaVisitante, m.vueltaVisitante) }}
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="round-column final-column">
+    <h2 class="round-title">FINAL / TERCER PUESTO</h2>
+    <div class="bracket-grid">
+      <div class="match-table" *ngIf="final.length > 0">
+        <table>
+          <tr>
+            <td class="equipo">{{ final[0].local || '???' }}</td>
+            <td class="ida">{{ final[0].idaLocal || 0 }}</td>
+            <td class="vuelta">{{ final[0].vueltaLocal || 0 }}</td>
+            <td class="total" [ngClass]="getTotalClass(final[0], true)">
+              {{ getTotal(final[0].idaLocal, final[0].vueltaLocal) }}
+            </td>
+          </tr>
+          <tr>
+            <td class="equipo">{{ final[0].visitante || '???' }}</td>
+            <td class="ida">{{ final[0].idaVisitante || 0 }}</td>
+            <td class="vuelta">{{ final[0].vueltaVisitante || 0 }}</td>
+            <td class="total" [ngClass]="getTotalClass(final[0], false)">
+              {{ getTotal(final[0].idaVisitante, final[0].vueltaVisitante) }}
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="match-table" *ngIf="tercerPuesto.length > 0">
+        <table>
+          <tr>
+            <td class="equipo">{{ tercerPuesto[0].local || '???' }}</td>
+            <td class="ida">{{ tercerPuesto[0].idaLocal || 0 }}</td>
+            <td class="vuelta">{{ tercerPuesto[0].vueltaLocal || 0 }}</td>
+            <td class="total" [ngClass]="getTotalClass(tercerPuesto[0], true)">
+              {{ getTotal(tercerPuesto[0].idaLocal, tercerPuesto[0].vueltaLocal) }}
+            </td>
+          </tr>
+          <tr>
+            <td class="equipo">{{ tercerPuesto[0].visitante || '???' }}</td>
+            <td class="ida">{{ tercerPuesto[0].idaVisitante || 0 }}</td>
+            <td class="vuelta">{{ tercerPuesto[0].vueltaVisitante || 0 }}</td>
+            <td class="total" [ngClass]="getTotalClass(final[0], false)">
+              {{ getTotal(tercerPuesto[0].idaVisitante, tercerPuesto[0].vueltaVisitante) }}
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>

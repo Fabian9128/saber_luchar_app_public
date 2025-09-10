@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { LigaRegionalService, Lucha } from '../../../services/liga-regional.service';
+import { LigaService, Lucha } from '../../../services/liga.service';
+import { LIGAS, EQUIPOS_ICONOS } from '../../../config/constants';
 
 @Component({
   selector: 'app-liga-regional',
@@ -10,53 +11,30 @@ import { LigaRegionalService, Lucha } from '../../../services/liga-regional.serv
   standalone: true,
   imports: [CommonModule, MatProgressSpinnerModule]
 })
-export class LigaRegionalComponent implements OnInit 
+export class LigaRegionalComponent implements OnInit
 {
   luchas: Lucha[] = [];
   jornadas: { numero: number, luchas: Lucha[] }[] = [];
   jugadores: string[] = [];
-  equiposIconos: { [nombre: string]: string } = {
-  'TEDOTE': 'assets/images/tedote.png',
-  'CANDELARIA': 'assets/images/candelaria.png',
-  'TAZACORTE': 'assets/images/tazacorte.png',
-  'ARIDANE': 'assets/images/aridane.png',
-  'BEDIESTA': 'assets/images/bediesta.png',
-  'TAMANCA': 'assets/images/tamanca.png',
-  'ROSARIO VALLE GUERRA': 'assets/images/rosariovg.png',
-  'GUAMASA': 'assets/images/guamasa.png',
-  'TEGUESTE': 'assets/images/tegueste.png',
-  'VICTORIA': 'assets/images/victoria.png',
-  'CHIMBESQUE': 'assets/images/chimbesque.png',
-  'CAMPITOS': 'assets/images/campitos.png',
-  'CASTRO MORALES': 'assets/images/castro.png',
-  'ALMOGARÉN': 'assets/images/almogaren.png',
-  'U. GÁLDAR': 'assets/images/galdar.png',
-  'CASTILLO': 'assets/images/castillo.png',
-  'MAXORATA': 'assets/images/maxorata.png',
-  'U. TETIR': 'assets/images/tetir.png',
-  'U. ANTIGUA': 'assets/images/antigua.png',
-  'ROSARIO': 'assets/images/rosarioftv.png',
-  'SALADAR': 'assets/images/saladar.png',
-  'FUERTEVENTURA': 'assets/images/fuerteventura.jfif',
-  };
+  equiposIconos = EQUIPOS_ICONOS;
   loading = true;
 
-  constructor(private ligaRegionalService: LigaRegionalService) {}
+  constructor(private ligaService: LigaService) {}
 
   ngOnInit(): void
   {
-    this.loadLuchas();
+    const liga = LIGAS.REGIONAL;
+    this.loadLuchas(liga.url, liga.fallbackCsv);
   }
 
-  loadLuchas(): void
+  loadLuchas(url: string, fallbackCsv?: string)
   {
     this.loading = true;
-    this.ligaRegionalService.getLuchas().subscribe(
+    this.ligaService.getLuchas(url, fallbackCsv).subscribe(
     {
-      next: (allLuchas) =>
+      next: allLuchas =>
       {
         this.luchas = allLuchas;
-
         const grouped: { [key: number]: Lucha[] } = {};
         for (const m of allLuchas)
         {
@@ -74,10 +52,9 @@ export class LigaRegionalComponent implements OnInit
           this.jugadores = Object.keys(sample)
             .filter(k => !['jornada','fecha','luchada','resultado','DOBLE','doble'].includes(k));
         }
-
         this.loading = false;
       },
-      error: (err) =>
+      error: err =>
       {
         console.error('Error cargando luchas:', err);
         this.loading = false;
