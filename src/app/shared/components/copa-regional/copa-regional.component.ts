@@ -2,16 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-
-interface Partido
-{
-  local: string | null;
-  visitante: string | null;
-  idaLocal?: string;
-  vueltaLocal?: string;
-  idaVisitante?: string;
-  vueltaVisitante?: string;
-}
+import { Partido } from '../../../core/models/models';
 
 @Component({
   selector: 'app-copa-regional',

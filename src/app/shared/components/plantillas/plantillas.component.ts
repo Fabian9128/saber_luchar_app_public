@@ -4,25 +4,7 @@ import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { Observable } from 'rxjs';
 import { FormsModule } from '@angular/forms';
-
-interface Luchador
-{
-  nombre: string;
-  categoria: string;
-}
-
-interface Equipo
-{
-  nombre: string;
-  isla: string;
-  logo: string;
-  luchadores: Luchador[];
-}
-
-interface PlantillasData
-{
-  equipos: Equipo[];
-}
+import { Equipo, PlantillasData } from '../../../core/models/models';
 
 @Component({
   selector: 'app-plantillas',

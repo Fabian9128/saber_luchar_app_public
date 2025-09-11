@@ -1,15 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
-
-export interface Lucha
-{
-  jornada: number;
-  fecha: string;
-  luchada: string;
-  resultado?: string;
-  [key: string]: string | number | undefined;
-}
+import { Lucha } from '../core/models/models';
 
 @Injectable({
   providedIn: 'root'

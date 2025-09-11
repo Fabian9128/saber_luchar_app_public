@@ -1,14 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
-
-export interface Player
-{
-  jugador: string;
-  puntos: number;
-  exacto: number;
-  dobles: number;
-}
+import { Player } from '../core/models/models';
 
 @Injectable({
   providedIn: 'root'

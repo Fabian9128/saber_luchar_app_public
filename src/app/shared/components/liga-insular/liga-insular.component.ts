@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { LigaService, Lucha } from '../../../services/liga.service';
+import { LigaService } from '../../../services/liga.service';
 import { LIGAS, EQUIPOS_ICONOS } from '../../../config/constants';
+import { Lucha } from '../../../core/models/models';
 
 @Component({
   selector: 'app-liga-insular',
